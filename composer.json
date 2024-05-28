@@ -1,0 +1,18 @@
+{
+    "require": {
+        "elasticsearch/elasticsearch": "^8.13",
+        "php-http/async-client-implementation": "*",
+        "guzzlehttp/guzzle": "^7.5",
+        "php-http/guzzle7-adapter": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "HP\\Customer\\": "app/code/HP/Customer"
+        }
+    }
+}
